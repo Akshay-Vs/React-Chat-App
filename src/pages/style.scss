@@ -1,0 +1,98 @@
+// Register page
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-container {
+  background-color: #505b7f;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form-wrapper {
+    background-color: rgb(197, 214, 219);
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+
+    .logo {
+      color: #4e858a;
+      font-size: 30px;
+      font-weight: 700;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .title {
+      color: #666c6d80;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 400px;
+
+      input {
+        padding: 20px;
+        margin-top: 10px;
+        border: none;
+        border-bottom: 1px solid #666c6d80;
+        outline: none;
+        font-size: 16px;
+        background-color: transparent;
+
+        &::placeholder {
+          color: #666c6d80;
+          font-weight: 400;
+        }
+      }
+
+      button {
+        padding: 20px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 30px;
+        outline: none;
+        font-size: 16px;
+        background-color: #4e858a;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          background-color: #505b7f;
+        }
+      }
+    }
+
+    p {
+      color: #666c6d80;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    label {
+        color: #666c6d80;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+    }
+  }
+}
